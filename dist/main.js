@@ -38,6 +38,7 @@ $(document).ready(function() {
                 $(albumArray[i]).css('background-image', 'url(' + array[i].url + ')');
 
                 $(albumArray[i]).css('background-size', 'cover');
+
             }
         }, 'json');
 
@@ -57,7 +58,7 @@ $(document).ready(function() {
             getImg(category);
             bool = false;
         } else {
-            bool = true;
+           
             //shows full image
             // $('.side-nav').hide();
            
@@ -67,11 +68,13 @@ $(document).ready(function() {
 
             var url = $target.css('background-image');
             console.log($target.css('background-image'));
+
             $('.full-img').css('background-image', url);
             $('.full-img').css('background-size', 'cover');
             $('.full-img').css('background-repeat', 'no-repeat');
-            $('.full-img').css('width', '50%');
-            $('.full-img').css('height', '50%');
+            $('.full-img').css('width', '80%');
+            $('.full-img').css('height', '0');
+            $('.full-img').css('padding-bottom', '50%');
             $('.full-img').css('margin', '0 auto');
             $('.full-img').css('border', '1px solid black');
             $('.full-img').css('box-shadow', '0 0 5px black');
