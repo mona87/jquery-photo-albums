@@ -85,7 +85,6 @@ $(document).ready(function() {
             $('.full-img-holder').show();
             $('.full-img').show();
         }
-
     })
 
     $backBtn.on('click', function(e) {
@@ -94,12 +93,4 @@ $(document).ready(function() {
         $('.full-title').hide();
         $('.full-img-holder').hide();
     })
-
-
-
-
-
-
-
-
 })
