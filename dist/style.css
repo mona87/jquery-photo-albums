@@ -65,7 +65,12 @@ button{
 	border: none;
 	width: 100px;
 	margin-left: 100px;
+	transition: .2s;
 
+}
+
+.btn-primary:hover{
+	background-color: grey;
 }
 
 .main-view{
@@ -134,8 +139,8 @@ button{
 	width: 230px;
 }
 footer{
-	background: url('https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/jquery-login/master/bg-login.png') repeat;
-	height: 50px;
+/*	background: url('https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/jquery-login/master/bg-login.png') repeat;
+	height: 50px;*/
 }
 
 @media (min-width:767px) {
