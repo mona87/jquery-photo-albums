@@ -1,0 +1,151 @@
+body{
+	background: url('https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/jquery-login/master/bg-login-top.png') repeat;
+	font-family: 'Cantarell', sans-serif;
+}
+
+
+
+.nav{
+	display: block;
+	background: url('https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/jquery-login/master/bg-login.png') repeat;
+	text-align: center;
+	min-height: 100px;
+	font-size: 40px;
+	padding-top: 20px;
+	color:white;
+	box-sizing: border-box;
+}
+
+
+.side-nav{
+	/*display:none;*/
+	background: url('https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/jquery-login/master/bg-login.png') repeat;
+  	position: fixed;
+	height: 100%;
+	 width: 250px;
+	padding-top: 100px;
+	padding-left: 20px;
+	overflow-y: auto;
+  	z-index: 1;
+  	 margin-left: -250px;
+ 	transition: all 0.4s ease 0s;
+ 	opacity: .8;
+
+	/*background-color: black;*/
+}
+
+#wrapper {
+  padding-left: 150px;
+  /*padding-left: 20px;*/
+  transition: all 0.4s ease 0s;
+}
+
+
+
+
+
+#page-content-wrapper {
+  width: 100%;
+}
+
+button{
+	
+	display: block;
+	margin-bottom: 10px;
+	width: 200px;
+	display: none;
+	margin-top: 30px;
+
+}
+
+.btn-primary{
+	background-color: white;
+	color: black;
+	border-radius: 20px;
+	border: none;
+	width: 100px;
+	margin-left: 100px;
+
+}
+
+.main-view{
+	padding-bottom: 50px;
+
+}
+
+.col-sm-4{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.title{
+	/*display: none;*/
+	text-align: center;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.photo{
+
+  height: 200px;
+  background-color: #eee;
+  /*border: 1px solid black;*/
+  background-size: cover;
+  box-shadow: 0 0 3px black;
+  margin-top: 50px;
+  border-radius: 50px;
+
+}
+
+.full-img{
+
+	display: none;
+	min-height: 400px;
+	max-width: 50%;
+
+}
+
+.full-img-holder{
+
+	background: url('https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/jquery-login/master/bg-login-top.png') repeat;
+	width: 100%;
+	min-height: 400px;
+	padding: 10px 20px 50px 20px;
+	box-sizing: border-box;
+	display: none;
+
+}
+
+.full-title{
+	background: url('https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/jquery-login/master/bg-login.png') repeat;
+	text-align: center;
+	font-size: 30px;
+	background-color: rgba(0,0,0,.8);
+	color: white;
+	height: 100px;
+	padding-top: 25px;
+	display: none;
+
+}
+
+#back-btn{
+
+	margin-bottom: 20px;
+	width: 230px;
+}
+footer{
+	background: url('https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/jquery-login/master/bg-login.png') repeat;
+	height: 50px;
+}
+
+@media (min-width:767px) {
+
+    #wrapper {
+      padding-left: 20px;
+    }
+
+
+
+
+}
+
